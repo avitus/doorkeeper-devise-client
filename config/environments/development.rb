@@ -27,9 +27,10 @@ DoorkeeperDeviseClient::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3001' }
 end
 
-DOORKEEPER_APP_ID = "375c2e3fdef2acba33ceefaa14be2b251d5174b9defc2a3b8e27fee8103a5aeb"
-DOORKEEPER_APP_SECRET = "6a2fa82ab6f7b565c8f8f57f677e408ebcda208709bde6eae0a784b48b49205c"
-DOORKEEPER_APP_URL = "http://localhost:4000"
+# Oauth Provider
+DOORKEEPER_APP_ID     = "8d9e8e694a95f7544390fc2d629e20471c4b9943e053a25474b78ea7407feed5"
+DOORKEEPER_APP_SECRET = "a85a040965098a9e5d804df716da7f16452d25fcda562d19d044f14314bafca3"
+DOORKEEPER_APP_URL    = "http://www.memversedev.com:3000"

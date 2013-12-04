@@ -20,6 +20,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'therubyracer', require: "v8"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -43,6 +44,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
   gem 'thin'
 end
